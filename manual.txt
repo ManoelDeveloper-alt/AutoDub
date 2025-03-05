@@ -1,0 +1,6 @@
+# Para funcionar instale:
+#     - ffmpeg: sudo apt install ffmpeg  # Linux
+#          - Para windows vá ao site https://ffmpeg.org/download.html e, após o download, adicione ele ao PATH
+#     - whisper: pip install openai-whisper (requer ffmpeg)
+#     - gtts: pip install gtts
+#     - deep_translator: pip install deepl
