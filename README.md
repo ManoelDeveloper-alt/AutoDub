@@ -23,4 +23,5 @@
     - Para agilizar o processo, entre no python, carregue a biblioteca whisper (import whisper) depois digite o comando 'whisper.load_model("small")', onde small é o tamanho do modelo que você pretende usar
     - Isso irá baixar o modelo
   - gtts: pip install gtts
-  - deep_translator: pip install deepl
+  - deep_translator: pip install deep-translator
+  - pydub: pip install pydub
