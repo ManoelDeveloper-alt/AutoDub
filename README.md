@@ -19,7 +19,7 @@
 
 - Instale o [python](https://www.python.org/downloads/) (foi usado a versao 3.12.7), no linux já há o python
   - whisper: pip install openai-whisper (requer ffmpeg)
-    - Para o whisper funcionar baixe o Microsoft visual C++ (https://aka.ms/vs/16/release/vc_redist.x64.exe)
+    - Para o whisper funcionar baixe o [Microsoft visual C++](https://aka.ms/vs/16/release/vc_redist.x64.exe)
     - Para agilizar o processo, entre no python, carregue a biblioteca whisper (import whisper) depois digite o comando 'whisper.load_model("small")', onde small é o tamanho do modelo que você pretende usar
     - Isso irá baixar o modelo
   - gtts: pip install gtts
