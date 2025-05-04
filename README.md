@@ -1,14 +1,20 @@
 # AutoDub
 ## Dublagem automatica feita com python
 
-### Versão beta 1.0 - Dublagem do google
+### Versão beta 1.0 - dubloogle
+- Usa a voz do google.
 - No arquivo 'google_dublador.py' modifique os valores de PATH_WORK, FILE_IN e FILE_OUT
 - Execulte o arquivo e espere.
+
+### Versão beta 1.0.1 - microdubbber
+- Usa a voz da microsoft.
+- Na pasta 'edge-version', modifique o arquivo 'edge_dublador.py'
+- Execulte e espere.
 
 #### Para funcionar instale:
 
 - ffmpeg: sudo apt install ffmpeg  # Linux
-  - Para windows vá ao [site](https://ffmpeg.org/download.html) e, após o download, adicione ele ao PATH
+- Para windows vá ao [site](https://ffmpeg.org/download.html) e, após o download, adicione ele ao PATH
   - Para baixar, acesse o site e clique no simbolo do windows e selecione a opção com 'gyan.dev'
   - Vá na opção 'mirror @github' e baixe uma versão, essencial ou full, '.zip'
   - Após baixar extraia e coloque os arquivos em uma pasta como 'C:/ffmpeg/' atentando-se ao local onde a pasta 'bin' está
@@ -18,10 +24,13 @@
   - Verifique a instalação digitando 'ffmpeg -version' no cmd do windows
 
 - Instale o [python](https://www.python.org/downloads/) (foi usado a versao 3.12.7), no linux já há o python
-  - whisper: pip install openai-whisper (requer ffmpeg)
+  - whisper: `pip install openai-whisper` (requer ffmpeg)
     - Para o whisper funcionar baixe o [Microsoft visual C++](https://aka.ms/vs/16/release/vc_redist.x64.exe)
-    - Para agilizar o processo, entre no python, carregue a biblioteca whisper (import whisper) depois digite o comando 'whisper.load_model("small")', onde small é o tamanho do modelo que você pretende usar
+    - Para agilizar o processo, entre no python, carregue a biblioteca whisper (import whisper) depois digite o comando `whisper.load_model("small")`, onde small é o tamanho do modelo que você pretende usar
     - Isso irá baixar o modelo
-  - gtts: pip install gtts
-  - deep_translator: pip install deep-translator
-  - pydub: pip install pydub
+  - deep_translator: `pip install deep-translator`
+  - pydub: `pip install pydub`
+  - Para versão beta 1.0:
+    - gtts: `pip install gtts`
+  - Para versão beta 1.0.1:
+    - edge-tts: `pip install edge-tts`
